@@ -1,21 +1,12 @@
 function toggle() {
   let x = document.getElementById("navbarLinks");
-  let y = document.getElementById("navbar");
-
-  if (x.style.display === "none") {
-    x.style.display = "flex";
-    y.style.height = "auto";
-  } else {
-    x.style.display = "none";
-  }
+  console.log(x.getAttribute("display"));
+  x.classList.toggle("open");
 }
 
 const modal = document.querySelector(".recent__modal");
 
 const modalImgs = document.querySelectorAll(".recent img");
-modalImgs.forEach((hata) => {
-  console.log(hata);
-});
 
 modalImgs.forEach((img, index) => {
   img.addEventListener("click", () => {

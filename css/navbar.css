@@ -23,7 +23,9 @@
     justify-content: flex-end;
     font-weight: 500;
 }
-
+.open{
+    display: flex;
+}
 .navbar ul {
     display: flex;
     list-style-type: none;
