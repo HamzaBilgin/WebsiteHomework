@@ -1,0 +1,106 @@
+.featured__body__top {
+    display: flex;
+}
+.featured__body__top p {
+    font-family: Work Sans, sans-serif;
+    font-size: 18px;
+    line-height: 120%;
+    background-color: #f9f5f2;
+}
+.featured__body__top a {
+    color: black;
+}
+.featured__body__top__img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: filter 0.3s ease;
+}
+.featured__body__top__img:hover {
+    filter: brightness(70%);
+}
+.featured__body__top__img img {
+    width: 100%;
+}
+.featured__body__top__text {
+    padding: 50px 20px 20px 20px;
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.featured__body__top__text h3 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 130%;
+}
+.featured__body__link {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.featured__body__top__text button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    box-shadow: 3px 3px #282825;
+    font-size: 16px;
+    font-weight: 500;
+}
+.featured__body__top__text__button--left {
+    background-color: #ff91e7;
+}
+.featured__body__top__text__button--right {
+    background-color: #f7cb45;
+}
+.featured__body__bottom {
+    display: flex;
+}
+.featured__body__bottom p {
+    font-family: Work Sans, sans-serif;
+    font-size: 18px;
+    line-height: 120%;
+    background-color: #f9f5f2;
+}
+.featured__body__bottom a {
+    color: black;
+}
+
+.featured__body__bottom__img {
+    width: 50%;
+}
+
+.featured__body__bottom__img img {
+    width: 100%;
+}
+.featured__body__bottom__text {
+    padding: 50px 20px 20px 20px;
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.featured__body__bottom__text h3 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 130%;
+}
+.featured__body__bottom__text button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    box-shadow: 3px 3px #282825;
+    font-size: 16px;
+    font-weight: 500;
+}
+.featured__body__bottom__text__button--left {
+    background-color: #22a094;
+}
+
+.featured__body__bottom__text__button--right {
+    background-color: #91a8ed;
+}

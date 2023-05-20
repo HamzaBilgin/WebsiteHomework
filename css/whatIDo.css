@@ -1,0 +1,49 @@
+.whatIDo {
+    margin-top: 300px;
+  }
+  .whatIDo__text {
+      text-align: center;
+      margin-top: 100px;
+  }
+  .whatIDo__cards {
+      
+      padding-top: 50px;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .whatIDo__cards h1,p,a p{
+      background-color: #fff;
+  }
+  .whatIDo__cards__card {
+      background-color: #fff;
+      margin: 20px;
+      width: 25%;
+      padding: 20px;
+      border: 1px solid black;
+      border-radius: 20px;
+      height: 500px;   
+      box-shadow: 3px 3px #282825;
+      position: relative;
+      transition: box-shadow 0.25s cubic-bezier(0.645, 0.045, 0.355, 1),
+          transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  
+  .whatIDo__cards__card:hover {
+      
+      box-shadow: 6px 6px #282825;
+      transform: translateX(-3px) translateY(-3px);
+  }
+  
+  .whatIDo__cards__card__img {
+      width: 50%;
+      margin: 20px;
+  }
+  
+  .whatIDo__cards__card__link {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      bottom: 30px;
+  }

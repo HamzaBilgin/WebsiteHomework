@@ -1,0 +1,172 @@
+
+@media (min-width: 1000px) {
+    .navbar__links {
+        display: flex !important;     
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .navbar {
+        display: grid;
+        grid-template-areas: "a b" "c c";
+    }
+    .navbar__logo {
+        width: 200px;
+        grid-area: a;
+    }
+    .navbar__icon {
+        display: block;
+        cursor: pointer;
+        grid-area: b;
+        display: flex;
+        justify-content: end;
+    }
+
+    .navbar__links {  
+        flex-direction: column;
+        text-align: left;
+        align-items: start;
+        grid-area: c;
+        position: relative;
+              
+    }
+    .navbar ul {
+        width: 100vw;
+        display: block;
+        list-style-type: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+
+        
+    }
+    .navbar ul li {
+        padding-left: 24px;
+        
+    }
+   
+}
+
+@media (max-width: 991px) {
+    .intro {
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro__left {
+        width: 100%!important;
+       
+    }
+    .intro__right {
+        width: 100%!important;
+        margin-top: 100px;
+        height: 500px;
+       
+    }
+
+    .intro__right__top{
+        position: absolute;
+        width: 600px;
+        top: -30px;
+        right: 10px;   
+    }
+    .intro__right__bottom{
+        right: 96px;  
+        top: 20px;
+        width: 400px;
+        position: absolute;
+    }
+    .whatIDo__cards__card__img {
+        width: 25%;
+        margin: 20px;
+    }
+    .whatIDo__cards {
+    
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .whatIDo__cards__card {
+        background-color: #fff;
+        margin: 10px;
+        width: 95%!important;
+        height: 450px!important;
+        margin-right: 20px;
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 20px;
+        position: relative;
+    }
+
+    .featured__body__top {
+        display: flex;
+        flex-direction: column;
+    }
+    .featured__body__top__img {
+        width: 100%!important;
+        
+    }  
+    .featured__body__top__text {
+        padding: 50px 20px 20px 20px;
+        position: relative;
+        width: 100%!important;
+        height: 400px;
+    }
+    .featured__body__bottom {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .featured__body__bottom__img {
+        width: 100%!important;
+    }
+    .featured__body__bottom__text {
+        padding: 50px 20px 20px 20px;
+        position: relative;
+        width: 100%!important;
+        height: 400px;
+    }
+
+    .recent__top {
+        display: flex;
+     flex-wrap: wrap;
+    }
+    .recent__top img {
+        width: 50%!important;
+        cursor: pointer;
+    }
+    .recent__bottom {
+        display: flex;
+     flex-wrap: wrap;
+  
+    }
+    .recent__bottom img {
+        width: 50%!important;
+        
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about__left {
+        width: 100%!important;
+    }
+    .about__right {
+        width: 100%!important;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact__left {
+        width: 100%!important;
+    }
+    .contact__right {
+        width: 100%!important;
+    }
+   
+}

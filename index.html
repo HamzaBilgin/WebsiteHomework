@@ -4,19 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
     <title>Document</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/intro.css" />
+    <link rel="stylesheet" href="css/whatIDo.css" />
+    <link rel="stylesheet" href="css/featured.css" />
+    <link rel="stylesheet" href="css/recent.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
-    <div class="navbar" id="navbar">
-      <div  class="navbar__logo">
+    <div class="navbar bg" id="navbar">
+      <div class="navbar__logo padding-24">
         <img src="img/navbarLogo.png" alt="" />
       </div>
-      <div onclick="toggle()" class="navbar__icon" id="navbarIcon">
-        <img src="img/icon.svg" alt="">
+      <div onclick="toggle()" class="navbar__icon padding-24" id="navbarIcon">
+        <img src="img/icon.svg" alt="" />
       </div>
       <div class="navbar__links" id="navbarLinks">
-        <ul>
+        <ul class="bg">
           <li>About</li>
           <li>What I Do</li>
           <li>My Work</li>
@@ -24,27 +32,23 @@
         </ul>
       </div>
     </div>
-    
-    
-    <div class="intro">
+
+    <div class="intro padding-24">
       <div class="intro__left">
         <h2>Hi, my name is Kristina.</h2>
         <h1 class="intro__left__bold">I teach UX/UI & Product Design.</h1>
         <h2 style="margin-bottom: 40px">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, eos?
+          I’m a Senior Product Designer with a marketing background. I’m also a
+          mentor in Dribbble’s design courses.
         </h2>
-        <a href="https://your-link-here.com" class="learn-from-me-button"
+        <a href="https://your-link-here.com" class="learn-from-me-button animated--button"
           >Learn from Me</a
         >
-      
       </div>
       <div class="intro__right">
-        <div class="intro__right__üst--img column">
-          <img src="img/logoüst.png" alt="" />
-        </div>
-        <div class="intro__right__alt--img column">
-          <img src="img/logoalt.jpeg" alt="" />
-        </div>
+        <img class="intro__right__bottom" src="img/logoalt.jpeg" alt="" />
+
+        <img class="intro__right__top" src="img/logoüst.png" alt="" />
       </div>
     </div>
 
@@ -68,14 +72,7 @@
             flows and deliver hi-fi prototypes.
           </p>
           <a href="">
-            <div
-              class="whatIDo__cards__card__link"
-              style="
-                display: flex;
-                align-items: center;
-                justify-content: center;
-              "
-            >
+            <div class="whatIDo__cards__card__link link">
               <p>See my work</p>
               <img src="img/rightArrow.svg" alt="" />
             </div>
@@ -95,14 +92,7 @@
             professional portfolio and personal brand.
           </p>
           <a href="">
-            <div
-              class="whatIDo__cards__card__link"
-              style="
-                display: flex;
-                align-items: center;
-                justify-content: center;
-              "
-            >
+            <div class="whatIDo__cards__card__link link">
               <p>Get in touch</p>
               <img src="img/rightArrow.svg" alt="" />
             </div>
@@ -133,7 +123,7 @@
 
     <div class="featured">
       <div style="display: flex; align-items: center; justify-content: center">
-        <h2>Featured Projects</h2>
+        <h2 class="margin--h2">Featured Projects</h2>
       </div>
 
       <div class="featured__body">
@@ -141,22 +131,26 @@
           <div class="featured__body__top__img">
             <img src="img/featuredLeft.jpeg" alt="" />
           </div>
-          <div class="featured__body__top__text">
-            <button class="featured__body__top__text__button--left">
-              Mobile
-            </button>
-            <button class="featured__body__top__text__button--right">
-              Web Design
-            </button>
-            <h3>SweatPaws: Dog Health Quiz for Gen</h3>
-            <p>
+        
+          <div class="featured__body__top__text bg__white">
+            <div class="featured__body__top__text__button">
+              <button class="featured__body__top__text__button--left">
+                Mobile
+              </button>
+              <button class="featured__body__top__text__button--right">
+                Web Design
+              </button>
+            </div>
+            
+            <h3 class="margin--15">SweatPaws: Dog Health Quiz for Gen</h3>
+            <p class="margin--15">
               This playful dog step calculator is designed for GenZ and their
               love for dogs. I was experimenting with neon and Midjourney AI to
               bring you a truly pawsome user experience.
             </p>
 
-            <a href="">
-              <div class="featured__body__link">
+            <a href="" >
+              <div class="featured__body__link margin--15">
                 <p>See full case study</p>
                 <img src="img/rightArrow.svg" alt="" />
               </div>
@@ -165,22 +159,24 @@
         </div>
 
         <div class="featured__body__bottom">
-          <div class="featured__body__bottom__text">
-            <button class="featured__body__bottom__text__button--left">
-              RTL
-            </button>
-            <button class="featured__body__bottom__text__button--right">
-              Product Design
-            </button>
-            <h3>SweatPaws: Dog Health Quiz for Gen</h3>
-            <p>
+          <div class="featured__body__bottom__text bg__white">
+            <div class="class="featured__body__top__text__button"">
+              <button class="featured__body__bottom__text__button--left">
+                RTL
+              </button>
+              <button class="featured__body__bottom__text__button--right">
+                Product Design
+              </button>
+            </div>
+            <h3 class="margin--15">SweatPaws: Dog Health Quiz for Gen</h3>
+            <p class="margin--15">
               This playful dog step calculator is designed for GenZ and their
               love for dogs. I was experimenting with neon and Midjourney AI to
               bring you a truly pawsome user experience.
             </p>
 
             <a href="">
-              <div class="featured__body__link">
+              <div class="featured__body__link margin--15">
                 <p>See full case study</p>
                 <img src="img/rightArrow.svg" alt="" />
               </div>
@@ -194,7 +190,7 @@
     </div>
 
     <div class="recent">
-      <div class="recent__h2">
+      <div class="recent__h2 margin--h2">
         <h2>Recent Dribble shots</h2>
       </div>
 
@@ -210,14 +206,13 @@
         <img src="img/recent7.jpeg" alt="" />
         <img src="img/recent8.jpeg" alt="" />
       </div>
-      <div class="recent__modal">
-       
+      <div class="recent__modal"> 
       </div>
     </div>
 
     <div class="about">
-      <div class="about__left">
-        <h2>About me</h2>
+      <div class="about__left bg__white">
+        <h2 class="about__h2">About me</h2>
         <p class="about-p">
           I wasn’t always a designer. Previously, I worked for large tech
           companies as a marketing manager.
@@ -251,6 +246,7 @@
         <img src="img/aboutImg.jpeg" alt="">
       </div>
     </div>
+
     <div class="contact">
       <div class="contact__left">
         <h2>Just say hi</h2>
@@ -279,9 +275,12 @@
         <input type="text"  placeholder="Your email*">
         <input type="text"  placeholder="your website(if exists)">
         <textarea name="" id="" placeholder="How can I help you*"></textarea>
+        <a href="https://your-link-here.com" class="learn-from-me-button animated--button"
+        >Get In Touch</a
+      >
       </div>
     </div>
+
     <script src="index.js"></script>
-    
   </body>
 </html>

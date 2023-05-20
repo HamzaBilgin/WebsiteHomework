@@ -1,0 +1,52 @@
+.intro {
+    margin-top: 120px;
+    display: flex;
+}
+
+.intro__left {
+    width: 50%;
+}
+
+.intro__left h2 {
+    color: #52514e;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.intro__left .intro__left__bold {
+    font-size: 64px;
+    line-height: 120%;
+}
+
+
+
+.intro__right {
+    box-sizing: border-box;
+    width: 50%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}  
+
+.intro__right__top{
+    position: absolute;
+    width: 600px;
+    top: -30px;
+    right: 10px;   
+}
+.intro__right__bottom{
+    right: 96px;  
+    top: 20px;
+    width: 400px;
+    position: absolute;
+}
+
+.intro::after {
+    content: "";
+    display: table;
+    clear: both;
+}
